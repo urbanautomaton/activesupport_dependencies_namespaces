@@ -1,0 +1,3 @@
+module HTML
+  puts "Loaded lib/html.rb"
+end

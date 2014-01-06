@@ -1,7 +1,7 @@
 require 'active_support/dependencies'
 
 ActiveSupport::Dependencies.clear
-ActiveSupport::Dependencies.autoload_paths << Pathname.new("lib").expand_path
+ActiveSupport::Dependencies.autoload_paths << Pathname.new("test1").expand_path
 
 module HTML
 end
